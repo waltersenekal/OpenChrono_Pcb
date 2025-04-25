@@ -1,0 +1,270 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "675f5d1a-8ed8-41c7-8ad5-a81acd0ca16b")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573e6c89-aa3b-4b8a-85cf-09f269e04673")
+	)
+	(wire
+		(pts
+			(xy 101.6 90.17) (xy 140.97 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754582f8-68ea-4715-86fc-6114f265c92c")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb934ae-f685-48cc-829c-54746ed5655f")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b28387-361a-43ac-847a-615cda9c65e5")
+	)
+	(sheet
+		(at 31.75 35.56)
+		(size 12.7 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "714aa7a2-5ee4-4be6-a048-2a4f5d502054")
+		(property "Sheetname" "Power"
+			(at 31.75 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 31.75 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "openchrono"
+				(path "/675f5d1a-8ed8-41c7-8ad5-a81acd0ca16b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 86.36)
+		(size 17.78 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77622d02-f0d9-4434-8e77-db6412390431")
+		(property "Sheetname" "Cpu"
+			(at 83.82 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 83.82 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO4" bidirectional
+			(at 101.6 105.41 0)
+			(uuid "dbc003f6-dfbc-4f7a-9a1b-175d6a9debc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pin_Start" input
+			(at 101.6 90.17 0)
+			(uuid "3f18309a-79e7-4a64-9f17-66a91edc8984")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pin_Stop" input
+			(at 101.6 93.98 0)
+			(uuid "9725c803-52ea-4283-8077-54498a629c15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 101.6 97.79 0)
+			(uuid "0c9309a2-19d6-4109-a798-8054fb707052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 101.6 101.6 0)
+			(uuid "ed476131-d935-46f9-85cb-522b17178250")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "openchrono"
+				(path "/675f5d1a-8ed8-41c7-8ad5-a81acd0ca16b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 83.82)
+		(size 22.86 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afa221d9-a1e4-442e-9008-7b88061a6c86")
+		(property "Sheetname" "IO"
+			(at 140.97 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 140.97 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "pin_Start" output
+			(at 140.97 90.17 180)
+			(uuid "36d961b6-2c69-4df9-9412-a0bb8313d73d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pin_Stop" output
+			(at 140.97 93.98 180)
+			(uuid "bd14e1b1-bd08-47dc-a7e7-93037c8ec777")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 140.97 97.79 180)
+			(uuid "2e39d369-0216-46b1-82e0-68333102a886")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 140.97 101.6 180)
+			(uuid "be758f76-d311-4e3b-aecd-c45f859ac817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "openchrono"
+				(path "/675f5d1a-8ed8-41c7-8ad5-a81acd0ca16b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
